@@ -36,7 +36,7 @@
         "internalType": "address"
       },
       {
-        "name": "virtualNad",
+        "name": "virtualNative",
         "type": "uint256",
         "internalType": "uint256"
       },
@@ -74,7 +74,7 @@
             "internalType": "uint256"
           },
           {
-            "name": "virtualNad",
+            "name": "virtualNative",
             "type": "uint256",
             "internalType": "uint256"
           },
@@ -133,7 +133,7 @@
     ],
     "outputs": [
       {
-        "name": "market",
+        "name": "curve",
         "type": "address",
         "internalType": "address"
       }
@@ -264,7 +264,7 @@
         "internalType": "string"
       },
       {
-        "name": "virtualNad",
+        "name": "virtualNative",
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
@@ -284,6 +284,19 @@
     "inputs": [
       {
         "name": "core",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "SetDexFactory",
+    "inputs": [
+      {
+        "name": "dexFactory",
         "type": "address",
         "indexed": true,
         "internalType": "address"
@@ -314,7 +327,7 @@
         "internalType": "uint256"
       },
       {
-        "name": "virtualNad",
+        "name": "virtualNative",
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
