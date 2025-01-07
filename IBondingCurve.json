@@ -94,6 +94,19 @@
   },
   {
     "type": "function",
+    "name": "getTargetToken",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
     "name": "getVirtualReserves",
     "inputs": [],
     "outputs": [
@@ -263,7 +276,7 @@
     "name": "Lock",
     "inputs": [
       {
-        "name": "curve",
+        "name": "token",
         "type": "address",
         "indexed": true,
         "internalType": "address"
@@ -307,7 +320,13 @@
     "name": "Sync",
     "inputs": [
       {
-        "name": "reserveWNad",
+        "name": "token",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "reserveWNative",
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
