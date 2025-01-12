@@ -6,8 +6,8 @@ export {default as IBondingCurveFactory} from "./IBondingCurveFactory.json"
 export {default as ICore} from "./ICore.json"
 
 //mint party
-export {default as IMintParty} from "./IMintParty.json"
-export {default as IMintPartyFactory} from "./IMintPartyFactory.json"
+// export {default as IMintParty} from "./IMintParty.json"
+// export {default as IMintPartyFactory} from "./IMintPartyFactory.json"
 
 //token
 export {default as IToken} from "./IToken.json"
