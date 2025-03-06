@@ -3,7 +3,7 @@
 "contract-abi": "https://github.com/Naddotfun/contract-abi.git#v0.3.0",
 
 ```
-add to package.json to contract-abi
+add contract-abi to package.json
 npm install or
 yarn install or
 pnpm install
